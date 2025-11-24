@@ -21,8 +21,7 @@ Every view is interactive and powered by automated **Power Query ETL**, **DAX me
 
 ## 📁 Project Files  
 📌 GitHub cannot host large PBIX files.  
-📄 Upload your PBIX to Google Drive / OneDrive and insert the link here:
-**PBIX Download Link:** [Drive Link](https://drive.google.com/file/d/1q8nv_eagMhVCamZfGlIDnlVBfnzwF9iA/view?usp=sharing)
+📄 Uploaded PBIX to Google Drive & inserting the link here: **PBIX Download Link:** [Drive Link](https://drive.google.com/file/d/1q8nv_eagMhVCamZfGlIDnlVBfnzwF9iA/view?usp=sharing)
 
 
 📸 All dashboard screenshots are available in the `/screenshots` folder.
