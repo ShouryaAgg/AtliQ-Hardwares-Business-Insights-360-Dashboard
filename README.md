@@ -1,158 +1,174 @@
-# 📊 AtliQ Hardwares – Business Insights 360 Dashboard (Power BI)
+<h1 align="center">📊 AtliQ Hardwares – Business Insights 360</h1>
 
-This repository contains my Power BI dashboard built to provide a 360° view of AtliQ Hardwares' business performance.  
-The report covers financials, sales, marketing, supply chain accuracy, executive KPIs, and user support—designed to help stakeholders make data-driven decisions.
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=1A7FF0&size=22&center=true&vCenter=true&width=650&lines=Power+BI+Business+Insights+Dashboard;Finance+%7C+Sales+%7C+Marketing+%7C+Supply+Chain+%7C+Executive;Multi-View+Analytics+with+ETL+Power+Query;360%C2%B0+Business+Performance+Analysis" />
+</p>
 
----
-
-### 🔗 Live Dashboard  
-[View the interactive Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjhkN2Y4ZTktMDA2MC00Mzc4LTk5MmItZWY1YWNmMzczMGY5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=03aa29aec6835cb6d259)
 
 ---
 
-### 📁 Project Files  
-Due to GitHub’s file size limits, the PBIX file is shared externally.  
-**PBIX File Link:** [Drive Link](https://drive.google.com/file/d/1q8nv_eagMhVCamZfGlIDnlVBfnzwF9iA/view?usp=sharing).  
+## 📘 Overview
 
-Screenshots of each view are included in the `/screenshots` folder.
-
----
-
-# 📄 Report Pages Explained (Full Breakdown)
-
-Below is a detailed overview of every report page included in the *Business Insights 360* dashboard.
+This project delivers a complete **Business Insights 360** dashboard built in **Power BI**, designed to help AtliQ Hardwares analyze performance across Finance, Sales, Marketing, Supply Chain, and Executive functions.  
+Every view is interactive and powered by automated **Power Query ETL**, **DAX measures**, and a clean **star-schema data model**.
 
 ---
 
-## 🏠 1. Home Page – Business Insights 360
-
-The dashboard opens with a clean navigation homepage listing all available modules:
-- **Finance View**
-- **Sales View**
-- **Marketing View**
-- **Supply Chain View**
-- **Executive View**
-- **Info**
-- **Support**
-
-This allows users to easily jump to any analytical section of the report.  
+## 🔗 Live Dashboard  
+👉 **[Click here to explore the interactive Power BI report](https://app.powerbi.com/view?r=eyJrIjoiNjhkN2Y4ZTktMDA2MC00Mzc4LTk5MmItZWY1YWNmMzczMGY5IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=03aa29aec6835cb6d259)**  
 
 ---
 
-## 💰 2. Finance View – P&L Statements
+## 📁 Project Files  
+📌 GitHub cannot host large PBIX files.  
+📄 Upload your PBIX to Google Drive / OneDrive and insert the link here:
+**PBIX Download Link:** [Drive Link](https://drive.google.com/file/d/1q8nv_eagMhVCamZfGlIDnlVBfnzwF9iA/view?usp=sharing)
 
-This page provides a complete Profit & Loss (P&L) analysis with multiple perspectives:
-- Revenue, COGS, and Gross Margin tracking  
+
+📸 All dashboard screenshots are available in the `/screenshots` folder.
+
+---
+
+# 🗂️ Report Pages — Full Breakdown
+
+Below is a detailed overview of every page included in the **Business Insights 360** dashboard.
+
+---
+
+## 🏠 1. **Home Page – Navigation Hub**
+
+A clean entry interface with quick access buttons to:
+
+- Finance View  
+- Sales View  
+- Marketing View  
+- Supply Chain View  
+- Executive View  
+- Info  
+- Support  
+
+This page allows seamless navigation across all functional dashboards.
+
+---
+
+## 💰 2. **Finance View – Profit & Loss Analytics**
+
+This comprehensive P&L module includes:
+
+- Revenue, COGS, and Gross Margin  
 - Customer-level profitability  
-- Product-level contribution  
-- Country/region P&L  
-- Year-over-year and month-over-month trends  
-- Dynamic filters for fiscal year, region, product, and customer  
+- Product-level P&L  
+- Country/region-level financials  
+- YoY and MoM trend analysis  
+- Dynamic filters for region, customer, product, and time  
 
-It helps stakeholders evaluate **overall financial health** and understand where profitability is rising or declining.
+Purpose:  
+Helps decision-makers evaluate **financial health** and understand **profitability movement** across dimensions.
 
 ---
 
-## 🛒 3. Sales View – Customer Analysis
+## 🛒 3. **Sales View – Customer Insights**
 
-This page focuses on customer growth and sales performance:
-- Net Sales trend for each customer  
+This page presents:
+
+- Multi-year Net Sales  
 - Gross Margin %  
-- YoY & MoM growth trends  
+- Growth rate indicators  
 - Customer contribution matrix  
-- Top vs bottom performing customers  
-- Segmentation by region, country, and division  
+- Top vs. bottom performing customers  
+- Region / country segmentation  
 
-This view identifies:
-- High-growth customers  
-- Retention patterns  
-- Underperforming accounts  
-- Revenue opportunities  
+Purpose:  
+Identify **growing**, **stable**, and **declining** customers and highlight hidden opportunities.
 
 ---
 
-## 📢 4. Marketing View – Product Performance
+## 📢 4. **Marketing View – Product Performance**
 
-This report highlights product- and category-level insights:
-- Net Sales & Gross Margin by product  
-- Category-wise product comparison  
-- Profitability and growth matrix  
-- Product segmentation filters  
+Focuses on product-level insights:
+
+- Net Sales by product  
+- GM% and profitability  
+- Product growth trends  
+- Category-level visual comparisons  
 - New product performance  
-- High-volume vs low-volume products  
 
-Useful for product managers and marketing teams to refine:
-- Pricing strategy  
-- SKU decisions  
-- High-performance product promotions  
+Purpose:  
+Support marketing and product teams in strategy, SKU decisions, and pricing analysis.
 
 ---
 
-## 🔗 5. Supply Chain View – Forecast Accuracy & Risk
+## 🔗 5. **Supply Chain View – Forecasting Accuracy**
 
-This section evaluates the accuracy and reliability of the supply chain:
-- Forecast Accuracy  
+Tracks the reliability of supply chain forecasting:
+
+- Forecast Accuracy %  
 - Net Error  
-- Bias Indicators  
-- Product-wise and customer-wise accuracy  
-- Risk classification based on demand prediction  
-- Segmentation by category, division, and region  
+- Demand Bias  
+- Risk scoring  
+- Analysis by product, category, customer, and region  
 
-This helps detect:
-- Under/over forecasting  
-- Inventory risk zones  
-- Supply-demand mismatches  
+Purpose:  
+Identify risk zones, forecasting failures, and supply-demand mismatches.
 
 ---
 
-## 🏛️ 6. Executive View – High-Level Summary
+## 🏛️ 6. **Executive View – Consolidated KPIs**
 
-This page is designed for leadership teams and provides a **consolidated overview** across all business areas:
+Designed for leadership and CXOs:
+
 - Total Net Sales  
 - Gross Margin  
-- Profitability trends  
-- Top customers & top products  
-- Key markets  
-- Overview of supply chain accuracy  
-- Fire alerts / red flags  
-- Quick insights  
+- YoY trends  
+- Top customers  
+- Top products  
+- Regional breakdown  
+- Supply chain red flags  
 
-This gives executives a fast, high-level summary of business performance.
+Purpose:  
+Deliver a **high-level unified snapshot** of business performance.
 
 ---
 
-## ℹ️ 7. Info Page – Documentation
+## ℹ️ 7. **Info Page – Documentation & Data Guide**
 
-This section includes:
+Includes:
+
 - Dataset description  
 - Metric definitions  
-- Navigation guide  
-- Instructions for using filters and slicers  
+- Navigation instructions  
+- Page usage guidelines  
 
-Designed to help new users understand report logic and navigate pages confidently.
+Purpose:  
+Help new users understand the logic behind the dashboard.
 
 ---
 
-## 🆘 8. Support Page
+## 🆘 8. **Support Page – Help & Contact**
 
 Provides:
+
+- Troubleshooting steps  
 - Contact information  
-- Support links  
-- Resource documents  
-- Troubleshooting guide  
+- Resource & help docs  
 
-Helps users report issues or request additions to the dashboard.
+Purpose:  
+Ensure users can resolve issues or request enhancements easily.
 
 ---
 
-# 📊 Features
-- Finance View (P&L statements)  
-- Sales and Marketing analysis  
-- Supply Chain accuracy & risk metrics  
-- Executive summary dashboards  
+# ✨ Dashboard Features
+
+- Multi-view navigation system  
+- Finance (P&L) analysis  
+- Sales & customer performance  
+- Marketing & product insights  
+- Supply chain forecast analysis  
+- Executive KPIs summary  
 - Automated ETL using Power Query  
-- DAX-driven metrics for YoY, MoM, and profitability  
-- Clean UI with consistent theme and page navigation  
+- DAX calculations for YoY, MoM, and profitability  
+- Interactive slicers, drill-throughs, and tooltips  
 
 ---
+
 
