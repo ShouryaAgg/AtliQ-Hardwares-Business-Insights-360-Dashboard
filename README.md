@@ -1,4 +1,4 @@
-# 📊 AtliQ Hardwares – Business Insights 360 (Power BI)
+# 📊 AtliQ Hardwares – Business Insights 360 Dashboard (Power BI)
 
 This repository contains my Power BI dashboard built to provide a 360° view of AtliQ Hardwares' business performance.  
 The report covers financials, sales, marketing, supply chain accuracy, executive KPIs, and user support—designed to help stakeholders make data-driven decisions.
